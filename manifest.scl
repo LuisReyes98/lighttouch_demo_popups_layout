@@ -1,5 +1,14 @@
 imports = {
   base-theme = "themes/base-theme",
+  studio-theme = "themes/studio-theme",
+  found-patterns-theme = "themes/found-patterns-theme",
+  side-modal-theme = "themes/side-modal-theme",
+  subscription-menu = "themes/subscription-menu",
+  chat-launcher-theme = "themes/chat-launcher-theme",
+  slideshow-template-theme = "themes/slideshow-template-theme",
+  notifications = "themes/notifications",
+  support_theme = "themes/support_theme",
+
   lighttouch-logging = "packages/lighttouch-logging",
   lighttouch-json-interface = "packages/lighttouch-json-interface",
   lighttouch-html-interface = "packages/lighttouch-html-interface",
@@ -11,6 +20,38 @@ imports = {
 
 base-theme = {
   url = "https://github.com/foundpatterns/base-theme",
+}
+
+studio-theme = {
+  url = "https://github.com/lighttouch-themes/studio-theme",
+}
+
+found-patterns-theme = {
+  url = "https://github.com/lighttouch-themes/found-patterns-theme",
+}
+
+side-modal-theme = {
+  url = "https://github.com/lighttouch-themes/side-modal-theme",
+}
+
+subscription-menu = {
+  url = "https://github.com/lighttouch-themes/subscription-menu",
+}
+
+chat-launcher-theme = {
+  url = "https://github.com/lighttouch-themes/chat-launcher-theme",
+}
+
+slideshow-template-theme = {
+  url = "https://github.com/lighttouch-themes/slideshow-template-theme",
+}
+
+notifications = {
+  url = "https://github.com/lighttouch-themes/notifications",
+}
+
+support_theme = {
+  url = "https://github.com/lighttouch-themes/support_theme",
 }
 
 lighttouch-logging = {
