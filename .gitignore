@@ -1,6 +1,14 @@
 /.mp
-/content
 /log
 /themes
 /packages
+
+/content/*
+
+# Example content
+!/content/811332fb-2b80-4e99-950d-3b76f3719e80/
+
+# Foundpatterns profile
+!/content/d3562615-c6c9-4a41-8fb9-f39117ed55cd/
+
 
