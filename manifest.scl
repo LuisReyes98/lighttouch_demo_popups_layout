@@ -12,6 +12,7 @@ imports = {
   lighttouch-logging = "packages/lighttouch-logging",
   lighttouch-json-interface = "packages/lighttouch-json-interface",
   lighttouch-html-interface = "packages/lighttouch-html-interface",
+  lighttouch-keys = "packages/lighttouch-keys",
   homepage-package = "packages/homepage-package",
   base-theme = "themes/base-theme",
   send-file-package = "packages/send-file-package",
@@ -64,6 +65,10 @@ lighttouch-json-interface = {
 
 lighttouch-html-interface = {
   url = "https://github.com/foundpatterns/lighttouch-html-interface",
+}
+
+lighttouch-keys = {
+  url = "https://github.com/foundpatterns/lighttouch-keys",
 }
 
 homepage-package = {
