@@ -2,12 +2,7 @@ imports = {
   base-theme = "themes/base-theme",
   studio-theme = "themes/studio-theme",
   found-patterns-theme = "themes/found-patterns-theme",
-  side-modal-theme = "themes/side-modal-theme",
-  subscription-menu = "themes/subscription-menu",
-  chat-launcher-theme = "themes/chat-launcher-theme",
   slideshow-template-theme = "themes/slideshow-template-theme",
-  notifications = "themes/notifications",
-  support_theme = "themes/support_theme",
 
   lighttouch-logging = "packages/lighttouch-logging",
   lighttouch-json-interface = "packages/lighttouch-json-interface",
