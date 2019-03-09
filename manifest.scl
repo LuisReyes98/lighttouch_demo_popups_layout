@@ -1,7 +1,7 @@
 imports = {
   base-theme = "themes/base-theme",
-  studio-theme = "themes/studio-theme",
-  found-patterns-theme = "themes/found-patterns-theme",
+  pitch-deck = "themes/pitch-deck",
+  fps-pitch = "themes/fps-pitch",
   slideshow-template-theme = "themes/slideshow-template-theme",
 
   lighttouch-logging = "packages/lighttouch-logging",
@@ -18,12 +18,12 @@ base-theme = {
   url = "https://github.com/foundpatterns/base-theme",
 }
 
-studio-theme = {
-  url = "https://github.com/lighttouch-themes/studio-theme",
+pitch-deck = {
+  url = "https://github.com/lighttouch-themes/pitch-deck",
 }
 
-found-patterns-theme = {
-  url = "https://github.com/lighttouch-themes/found-patterns-theme",
+fps-pitch = {
+  url = "https://github.com/lighttouch-themes/fps-pitch",
 }
 
 side-modal-theme = {
