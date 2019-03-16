@@ -4,6 +4,9 @@ imports = {
   fps-pitch = "themes/fps-pitch",
   slideshow-template-theme = "themes/slideshow-template-theme",
 
+  fadeshow-theme = "themes/fadeshow",
+  fadeshow = "themes/fadeshow/stylesheets",
+
   lighttouch-logging = "packages/lighttouch-logging",
   lighttouch-json-interface = "packages/lighttouch-json-interface",
   lighttouch-html-interface = "packages/lighttouch-html-interface",
@@ -12,6 +15,7 @@ imports = {
   base-theme = "themes/base-theme",
   send-file-package = "packages/send-file-package",
   lighttouch-change-management = "packages/lighttouch-change-management",
+  
 }
 
 base-theme = {
@@ -86,3 +90,10 @@ lighttouch-default-content = {
   url = "https://github.com/foundpatterns/lighttouch-default-content",
 }
 
+fadeshow = {
+  url = "https://github.com/alexerlandsson/css-fadeshow",
+}
+
+fadeshow-theme = {
+  url = "https://github.com/LuisReyes98/fadeshow-lighttouch",
+}
