@@ -3,6 +3,7 @@ imports = {
   pitch-deck = "themes/pitch-deck",
   fps-pitch = "themes/fps-pitch",
   slideshow-template-theme = "themes/slideshow-template-theme",
+  fadeshow = "themes/slideshow-template-theme/stylesheets/fadeshow",
   lighttouch-logging = "packages/lighttouch-logging",
   lighttouch-json-interface = "packages/lighttouch-json-interface",
   lighttouch-html-interface = "packages/lighttouch-html-interface",
@@ -84,4 +85,8 @@ lighttouch-change-management = {
 
 lighttouch-default-content = {
   url = "https://github.com/foundpatterns/lighttouch-default-content",
+}
+
+fadeshow = {
+  url = "https://github.com/alexerlandsson/css-fadeshow",
 }
