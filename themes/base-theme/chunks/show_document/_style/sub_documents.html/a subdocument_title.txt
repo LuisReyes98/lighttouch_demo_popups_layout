@@ -1,0 +1,6 @@
+link__main
+text-black
+font-bold
+py-1
+px-1
+hover:text-blue

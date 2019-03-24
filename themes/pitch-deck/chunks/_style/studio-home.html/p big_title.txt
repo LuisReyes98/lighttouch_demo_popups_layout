@@ -1,0 +1,7 @@
+font-bold
+text-center
+text-2xl
+md:text-4xl
+px-3
+mb-5
+sm:mb-16

@@ -1,0 +1,12 @@
+textarea__main
+bg-grey-lighter
+appearance-none
+border-2
+border-grey-lighter
+rounded
+text-grey-darker
+leading-tight
+focus:outline-none
+focus:bg-white
+focus:border-black
+focus:text-black

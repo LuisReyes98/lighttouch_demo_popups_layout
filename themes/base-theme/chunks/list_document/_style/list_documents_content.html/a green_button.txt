@@ -1,0 +1,9 @@
+link__main
+text-black
+font-bold
+bg-green
+rounded-full
+py-2
+px-4
+hover:bg-green-dark
+hover:text-white

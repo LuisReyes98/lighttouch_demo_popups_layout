@@ -1,0 +1,5 @@
+flex-none
+m-2
+h-6
+fill-current
+text-green-dark

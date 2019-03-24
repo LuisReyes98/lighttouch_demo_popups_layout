@@ -1,0 +1,7 @@
+description = "Profile definition"
+guarded = true
+fields = {
+  name = {
+    type= "string",
+  },
+}

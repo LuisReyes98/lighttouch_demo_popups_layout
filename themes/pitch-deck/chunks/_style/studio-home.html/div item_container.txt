@@ -1,0 +1,5 @@
+container
+mx-auto
+pt-24
+md:pt-16
+px-6

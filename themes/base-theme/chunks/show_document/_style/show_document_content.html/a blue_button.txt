@@ -1,0 +1,10 @@
+inline-block
+text-black
+link__main
+font-bold
+bg-blue
+rounded-full
+py-2
+px-4
+hover:bg-blue-dark
+hover:text-white

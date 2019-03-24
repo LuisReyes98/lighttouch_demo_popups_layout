@@ -1,0 +1,7 @@
+imports = {
+  fadeshow = "/stylesheets/fadeshow",
+}
+
+fadeshow = {
+  url = "https://github.com/alexerlandsson/css-fadeshow",
+}

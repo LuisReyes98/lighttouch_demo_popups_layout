@@ -1,0 +1,84 @@
+$primary-brown: #a99977
+$dark-brown: #a09070
+
+$primary-dark-grey: #111111
+
+//nav sizes  
+
+//all
+.found_nav_h 
+  height: 17vh  
+
+//sm  
+@media (min-width: 576px)
+  .found_nav_h 
+    height: 17vh
+    
+
+//md  
+@media (min-width: 768px) 
+  .found_nav_h 
+    height: 17vh
+
+//lg  
+@media (min-width: 992px)
+  .found_nav_h 
+    height: 11vh
+
+//xl  
+@media (min-width: 1200px)
+  .found_nav_h 
+    height: 11vh
+                  
+.found_nav  
+  padding: 5px 0px 5px 0px
+  overflow: hidden
+
+  .nav_sub_section
+    z-index: 100
+    display: none
+    transition: display 1s
+    position: absolute
+    background-color: $primary-dark-grey
+    border-top: 3px solid $primary-brown
+    &:hover
+      display: block
+    
+    .sub_element
+      border-bottom: 1px solid $primary-brown
+
+
+
+  .link_container
+    overflow-x: scroll
+
+    &::-webkit-scrollbar
+      width: 2px
+      height: 2px
+    /* Track */
+    &::-webkit-scrollbar-track
+      background: $primary-dark-grey 
+      border-radius: 15px
+    /* Handle */
+    &::-webkit-scrollbar-thumb
+      background: $primary-brown
+      border-radius: 10px
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover 
+      background: $dark-brown
+
+  .nav_link
+    padding: 10px 0px 8px 0px
+    margin-bottom: 2px
+    transition: border-bottom 0.5s
+    border-bottom: 4px solid $primary-dark-grey
+    padding-left: 15px
+    padding-right: 15px
+    box-sizing: content-box
+
+    &:hover
+      border-color: $primary-brown
+      ~ .nav_sub_section
+        display: block
+

@@ -2,8 +2,11 @@ imports = {
   base-theme = "themes/base-theme",
   pitch-deck = "themes/pitch-deck",
   fps-pitch = "themes/fps-pitch",
+  
+  popups = "themes/popups",
+  
+
   slideshow-template-theme = "themes/slideshow-template-theme",
-  fadeshow = "themes/slideshow-template-theme/stylesheets/fadeshow",
   lighttouch-logging = "packages/lighttouch-logging",
   lighttouch-json-interface = "packages/lighttouch-json-interface",
   lighttouch-html-interface = "packages/lighttouch-html-interface",
@@ -87,6 +90,6 @@ lighttouch-default-content = {
   url = "https://github.com/foundpatterns/lighttouch-default-content",
 }
 
-fadeshow = {
-  url = "https://github.com/alexerlandsson/css-fadeshow",
+popups = {
+  url = https://github.com/lighttouch-themes/popups
 }

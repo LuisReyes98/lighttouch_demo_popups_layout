@@ -1,0 +1,12 @@
+<!-- Edit fields -->
+{% for key, value in fields %}
+  <div responsive_container >
+    <label field_name for="{{key}}">
+      {{ key | safe | capitalize }}
+    </label>
+    <input input_field
+      type="string" name="fields.{{key}}" id="{{key}}" {% if fields %} value="{{ value | safe }}" {% endif %}>
+  
+  </div>
+
+{% endfor %}

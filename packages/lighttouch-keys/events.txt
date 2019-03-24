@@ -1,0 +1,10 @@
+key_generation_request
+send_key
+say_hello
+create_profile
+send_profile_and_key
+jade_new_profile
+get_profile_form
+show_place
+send_connect_request
+connect_profile

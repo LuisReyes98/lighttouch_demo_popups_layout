@@ -1,0 +1,21 @@
+<div shadow_container>
+  <div>
+    <h3 padding>Fields</h3>
+      <input type="hidden" name="model" value="{{model_name}}">
+    {% if id %}
+      <input type="hidden" name="id" value="{{id}}">
+    {% endif %}
+    <div edit_field_container>
+      {% if fields %}
+        <!-- Edit fields-->
+        {% include "chunks/model_form/field_key.html" %}
+
+      {% else %}
+        <!-- Creation mode model fields used -->
+        {% include "chunks/model_form/field_name.html" %}
+
+      {% endif %}
+
+    </div>
+  </div>
+</div>

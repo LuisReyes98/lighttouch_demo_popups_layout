@@ -1,0 +1,17 @@
+{# extends "layouts/base.html" #}
+<!-- Example of how to implement the slide component -->
+
+<!-- imports the component that the slider is going to use -->
+{% block head %}
+  {{ super() }}
+  <!-- include custom styles  -->
+  {% include "headers/styles-slideshow.html" %}
+
+{% endblock head %}
+
+{% block content %}
+  {{ super() }}       
+  <!-- call to the slider html -->
+  {% include "chunks/slides.html" %}
+  
+{% endblock content %}

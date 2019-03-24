@@ -1,0 +1,11 @@
+
+<!-- Creation mode model fields used -->
+{% for name, field_def in model.fields %}
+  <div responsive_container>
+    <label field_name for="{{name}}">
+      {{ name | capitalize }}
+    </label>
+    <input input_field
+      type="string" name="fields.{{name}}" id="{{name}}" {% if fields %} value="{{fields[name]}}" {% endif %}>
+  </div>
+{% endfor %}

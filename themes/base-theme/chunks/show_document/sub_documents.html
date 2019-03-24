@@ -1,0 +1,49 @@
+{% if subdocuments %}
+  <div sub_doc_cont >
+    <h3>Subdocuments</h3>
+    {% for submodel, docs in subdocuments %}
+      <h4 >
+        <a subdocument_title href="/{{submodel}}">
+          {{ submodel | capitalize }}
+        </a>
+      </h4>
+      <ul list>
+
+      {% for entry in docs %}
+        <li>
+
+          {% set url = "/" ~ submodel ~ "/" ~ entry.uuid %}
+          {% if entry.name %}
+            <!-- Subdocument has name -->
+            <h4 >
+              <a document_title href="{{url}}">
+                {{entry.name}}
+              </a>
+            </h4>
+            
+            <!-- Broken, entry does not pass through -->
+            {#% include "chunks/show_document/sub_document_name.html" %#}
+            {#% include "chunks/show_document/sub_document_data.html" %#}
+
+          {% else %}
+            <!-- Subdocument doesn't have a name -->
+            <div responsive_container>
+              <span document_name>
+                {{entry.store}} : {{entry.uuid}}
+              </span>
+              <div width_sm >
+                <a blue_button
+                  href="{{url}}">
+                  Show
+                </a>
+              </div>
+            </div>
+            <!-- Broken, entry does not pass through -->
+            {#% include "chunks/show_document/sub_document_data.html" %#}
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,13 @@
+<div slide_container>
+  <img slide_img src="{{img}}">
+  <div slide_content> 
+    <div title_container>
+      <h1 top_left >{{title | upper}} </h1>
+    </div>   
+    <div msg_container>
+      {% if body %}
+        <p msg_body>{{body | upper}}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

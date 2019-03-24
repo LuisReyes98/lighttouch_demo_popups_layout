@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <!-- grand grand parent -->
+  <head>
+    {% block head %}      
+      {% include "headers/meta.html" %}
+      {% include "headers/stylesheets.html" %}
+    {% endblock head %}
+    <title>
+      {% block title %}
+      
+      {% endblock title %}
+    </title>
+      
+      {% block style %}
+        <!-- Style tags css inside the html -->
+        <style>
+        </style>   
+      {% endblock style %}
+      
+  </head>
+  <body>     
+    {% block event_input %}
+      <!-- inputs for No js interaction will be placed here  -->
+    {% endblock event_input %}
+    <div id="page">
+
+      <div id="header">
+        {% block header %}
+          <!-- Header -->
+        {% endblock header %}  
+      </div>
+
+      <div id="navigation">
+        {% block navigation %}
+          <!-- Nav bar -->
+        {% endblock navigation %}          
+      </div>
+
+      <div id="content">
+        {% block content %}
+          <!-- Content of any page -->     
+
+        {% endblock content %}
+      </div>
+      
+      <div id="footer">
+        {% block footer %}
+          <!-- footer -->
+        {% endblock footer %}    
+      </div>
+      
+    </div>
+  </body>  
+
+</html>

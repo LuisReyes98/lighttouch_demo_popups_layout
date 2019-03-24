@@ -1,0 +1,4 @@
+w-full
+text-black
+text-center
+slideshow_height_

@@ -1,0 +1,24 @@
+<div big_container>
+  <div card_container>
+    <form method="POST" action="/">
+      <div edit_header >
+        <h1>{{ TITLE }}</h1>
+        {% if store %}
+          <strong>Store:</strong> {{ store | safe }} <br>
+        {% endif %}
+      </div>
+      <div>        
+        {% include "chunks/model_form/fields.html" %}
+
+        {% include "chunks/model_form/model_body.html" %}
+              
+        <div padding_centered >
+          <button green_button 
+            type="submit">Create {{ model_name | safe }}</button>
+        </div>
+
+      </div>
+    </form>
+
+  </div>
+</div>

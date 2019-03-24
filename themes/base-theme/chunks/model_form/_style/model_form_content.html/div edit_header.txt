@@ -1,0 +1,4 @@
+shadow-md
+bg-grey-lighter
+px-5
+py-1

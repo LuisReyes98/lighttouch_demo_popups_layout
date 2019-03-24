@@ -1,0 +1,11 @@
+{% if documents %}
+  <ul list>
+    {% include "chunks/list_document/entries.html" %}
+
+    
+  </ul>
+{% else %}
+  <h2>
+    No documents
+  </h2>
+{% endif %}

@@ -1,0 +1,6 @@
+w-3/4
+py-2
+px-2
+rounded
+text-grey-darker
+leading-tight

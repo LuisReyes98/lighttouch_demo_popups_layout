@@ -1,0 +1,7 @@
+py-1
+px-4
+flex
+flex-wrap
+content-center
+align-middle
+flex-col

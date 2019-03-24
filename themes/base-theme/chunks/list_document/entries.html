@@ -1,0 +1,30 @@
+{% for entry in documents %}
+  <li list_border>
+
+    {% set url = "/" ~ model ~ "/" ~ entry.uuid %}
+    <!-- Elements of the list -->
+    <div col_container>
+      <div row_container>
+        <p padding>
+          Store
+          <p bold_font>
+            {{entry.store}} :
+          </p>
+        </p>
+      </div>
+      <div responsive_display>
+        <div width_md>
+          <h3>
+            {{entry.uuid}}
+          </h3>
+        </div>
+        <div width_sm>
+          <a blue_button href="{{url}}">
+            Show
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </li>
+{% endfor %}

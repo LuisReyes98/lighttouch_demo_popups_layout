@@ -1,0 +1,6 @@
+content__body
+rounded
+bg-white
+shadow-lg
+w-full
+overflow-hidden

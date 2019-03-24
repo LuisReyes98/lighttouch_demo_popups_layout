@@ -1,0 +1,11 @@
+{% for key, value in fields %}
+  <!-- Field of the document -->
+  <div responsive_field_container >
+    <label field_name for="{{key}}">
+      {{ key | safe | capitalize }}:
+    </label>
+    <label field_value for="{{key}}" id="{{key}}">
+      {{ value | safe }}
+    </label>
+  </div>  
+{% endfor %}

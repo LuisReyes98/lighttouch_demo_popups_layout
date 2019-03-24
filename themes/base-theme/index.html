@@ -1,0 +1,53 @@
+{% extends "layouts/base.html" %}
+<!-- grand parent -->
+
+{% block head %}
+  {{ super() }}
+
+{% endblock head %}
+
+{% block title %}
+  {{ super() }}
+  
+  {% if TITLE %}
+    {{ TITLE }}
+  {% else %}
+    {{ SITENAME }}
+  {% endif %}
+
+{% endblock title %}
+  
+
+{% block event_input %}
+<!-- inputs for No js interaction will be placed here  -->
+  <p>Inputs to have control over NO JS animations go in this segment. Check other themes for live examples</p>
+  <input type="checkbox">
+{% endblock event_input %}
+
+{% block header %}
+  <!-- Header -->
+  <div site_header>
+    Header of the site , or alusive image 
+
+  </div>
+{% endblock header %}
+
+{% block navigation %}
+  <!-- Nav bar -->
+  {% include "chunks/nav.html" %}
+{% endblock navigation %}
+
+{% block content %}  
+  {{ super() }}
+  <div site_content id="page_content">
+    Site Content
+
+    Lorem Incididunt sunt excepteur esse in laboris. Laboris eiusmod mollit quis id nulla eu occaecat dolor Lorem do dolore aliqua exercitation anim. Est anim incididunt reprehenderit elit ex incididunt ipsum enim veniam sunt anim irure. Irure do minim elit nulla sint.
+  </div>
+{% endblock content %}
+
+{% block footer %}
+  <!-- footer -->
+  {% include "chunks/footer.html" %}
+
+{% endblock footer %}

@@ -1,0 +1,46 @@
+body { background-color: #323134; }
+
+nav {
+  background-color: #111111;
+  border-bottom: 2px solid #9a7c58;
+}
+
+.link-list a { color: #dcd3c6; }
+/*.link-list a:hover { border-bottom: 3px solid #907e56; }*/
+
+nav .sitename { color: #a99977; }
+
+.site-map {
+  border-top: 1px solid #5c5c5c;
+  background-color: #252525;
+  color: #8d8d8d;
+}
+
+.footer {
+  background-color: black;
+  color: #8d8d8d;
+}
+
+.footer .sitename { color: #464646; }
+
+.slide-content {
+  color: white;
+  text-shadow: 1px 1px 6px black;
+}
+
+.slide-img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-aspect-ratio: 3/2) {
+  .slide-img {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.alt-name {
+  font-size: 75%;
+  color: gray;
+}

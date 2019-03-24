@@ -1,0 +1,8 @@
+<!-- Next Navigation -->
+<div next_slide>
+  {% set_global slider_n = 1 %}
+    {% for x in slides %}
+      <label btn_next for="slide-{{slider_n}}"></label>
+    {% set_global slider_n = slider_n + 1 %}
+  {% endfor %}
+</div>

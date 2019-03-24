@@ -1,0 +1,6 @@
+name: fps-pitch
+parents:
+  - pitch-deck #the parent theme goes first  
+  - slideshow-template-theme
+  - popups
+  - base-theme  #even though studio-theme has base theme as parent , base theme must be added in order for this theme to access the templates that exists within base-theme  

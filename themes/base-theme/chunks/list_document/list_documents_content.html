@@ -1,0 +1,14 @@
+<div big_container >
+  <div card_container>
+    {% include "chunks/list_document/header.html" %}
+       
+    {% include "chunks/list_document/documents.html" %}
+    
+
+    <div center_container >
+      <a green_button
+        href="/{{model}}/new">New {{ model | capitalize }}</a>
+    </div>
+
+  </div>
+</div>

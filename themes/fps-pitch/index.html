@@ -1,0 +1,52 @@
+{% extends "layouts/base.html" %}
+
+
+{% block event_input %}
+  {{ super() }}
+
+{% endblock event_input %}
+{% block head %}
+  {{ super() }}
+
+  {% set popup_ids = [popups.id, popups.id_alt] %}
+  {% set popup_styles = popups.popup_styles %}
+
+  
+  {% include "headers/popup_manager_head.html" %}
+
+  
+{% endblock head %}
+
+
+{% block content %}
+
+  {{ super() }}     
+    
+  <!-- call to the slider -->
+  
+  {% include "chunks/slides.html" %}
+  
+
+  <!-- static example of the subscription template -->
+  <h2>
+    I am some sample things don't push me to git     
+  </h2>
+  
+  {% set popup_type = popups.popup_type %}
+  {% set popup_announcement = popups.announcement %}
+
+  {% set popup_id = popups.id %}
+
+  <label for="{{popup_id}}">SHOW MY POPUP</label>
+  {% include "chunks/popups_component.html" %}
+
+  {% set popup_type = popups.popup_type %}
+  {% set popup_announcement = popups.announcement_alt %}
+
+  {% set popup_id = popups.id_alt %}
+
+  <label for="{{popup_id}}">Completly different popup</label>
+  {% include "chunks/popups_component.html" %}
+
+
+{% endblock content %}

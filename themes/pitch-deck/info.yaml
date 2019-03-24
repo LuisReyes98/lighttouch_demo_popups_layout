@@ -1,0 +1,3 @@
+name: pitch-deck
+parents:
+  - base-theme

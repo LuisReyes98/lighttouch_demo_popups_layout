@@ -1,0 +1,34 @@
+.slideshow_height_{
+  height: 100vh;
+}
+
+.slide_title {
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 3em;
+  font-weight: bold;
+  border-bottom: 3px solid $underline_color;
+}
+
+.slide_body {
+  font-weight: bold;
+}
+
+.slide_title_container {
+  height: auto;
+  width: 35%;
+}
+
+.slide_body_container {
+  margin-top: 1em;
+  margin-left: 4em;
+  height: auto;
+  width: 45%;
+}
+
+.image_slider {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}

@@ -1,0 +1,46 @@
+{% extends "^/layouts/base.html" %}
+
+{% block head %}
+  {{ super() }}
+  {% include  "headers/feeds.html" %}
+  
+{% endblock head %}
+
+{% block title %}
+  {{ super() }}
+
+  {% if TITLE %}
+    {{ TITLE }}
+  {% else %}
+    {{ SITENAME }}
+  {% endif %}
+
+{% endblock title %}  
+
+{% block style %}
+  {{ super() }}
+  {% include  "headers/studio.html" %}
+
+{% endblock style %}
+
+{% block event_input %}
+  {{ super() }}
+
+{% endblock event_input %}
+
+{% block navigation %}
+  {{ super() }}
+
+{% endblock navigation %}  
+
+{% block content %}
+  {{ super() }}
+
+{% endblock content %}
+
+{% block footer %}
+  {{ super() }}
+
+{% endblock footer %} 
+
+
